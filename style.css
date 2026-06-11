@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'Roboto',sans-serif;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2px;
+}
+
+
+
+.top {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer,
+.top {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    
+    
+}
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+
+.logo {
+font-size: 24px;
+color: #f9faf8;
+}
+
+
+.feedback {
+    background-color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.information {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+ 
+
+.feedback {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    background-color: #E5E7EB;
+}
+
+.images {
+display: flex;
+flex-direction: row;
+
+
+}
+
+.exemption {
+    height: 200px;
+    width: 300px;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 10px;
+    margin: 5px #E5E7EB;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+ .pic {
+    width: 300px;
+    height: auto;
+
+}
+
+.last {
+    background-color: #f9faf8;
+    height: 150px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+
+
+
+
+.const {
+    background-color: #3882F6;
+    display: flex;
+    padding: 40px;
+    justify-content: space-evenly;
+    color: #E5E7EB;
+    gap: 40px;
+
+    
+}
+
+.intro {
+display: flex;
+justify-content: space-evenly;
+
+    
+}
+
+
+.explanation {
+    
+    width: 500px;
+    
+
+}
+
+.lfbtn {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.one,
+.two,
+.three {
+    padding: 20px;
+}
+
+.specific {
+    font-size: large;
+    font-weight: 600;
+}
